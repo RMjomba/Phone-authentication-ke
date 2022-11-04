@@ -1,0 +1,70 @@
+body {
+  background-color: #02062e;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.g-ef {
+  padding-bottom: 10px;
+  width: 100%;
+  margin-top: 3px;
+  gap: 2px;
+  display: grid;
+ 
+}
+
+.g-et {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  width: 100%;
+  display: grid;
+
+}
+
+.box {
+  border: 5px solid #dfdfdf;
+  background-color: #fff;
+}
+
+.g-verify{
+  background-color: rgb(21, 144, 226);
+}
+
+.g-logout{
+  width: 25% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 20px !important;
+  background-color: rgb(21, 144, 226);
+  margin-top: 10px;
+  font: bold;
+
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+  background-color: rgb(21, 144, 226);
+  margin-top: 10px;
+  
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
+
+.button-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#recaptcha-container {
+  margin: 20px;
+}
