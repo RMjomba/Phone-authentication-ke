@@ -45,7 +45,7 @@ const PhoneSignUp = () => {
   return (
     <>
       <div className="p-4 box">
-        <h2 className="mb-3">Phone Auth</h2>
+        <h2 className="mb-3">Phone Authentication</h2>
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={getOtp} style={{ display: !flag ? "block" : "none" }}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
